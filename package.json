@@ -1,0 +1,31 @@
+{
+  "name": "10_airbnb_project",
+  "version": "1.0.0",
+  "description": "This is Clone of Airbnd for learning node js.",
+  "main": "App.js",
+  "scripts": {
+    "start": "node App.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "tailwindcss -i ./views/input.css -o ./public/output.css --watch"
+  },
+  "author": "Sangram Nikam",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.6",
+    "bcryptjs": "^3.0.2",
+    "connect-mongodb-session": "^5.0.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "express-validator": "^7.2.1",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.15.1",
+    "multer": "^2.0.1",
+    "mysql2": "^3.14.1",
+    "tailwindcss": "^4.1.6"
+  }
+}
