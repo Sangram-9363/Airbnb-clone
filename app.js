@@ -7,10 +7,11 @@ const mongoose = require("mongoose");
 const session = require("express-session");
 const mongoDBStore = require("connect-mongodb-session")(session);
 const multer = require("multer");
-const DB_PATH =
-  process.env.MONGO_URI ||
-  "mongodb+srv://root:pass@sangram.yjddsyh.mongodb.net/airbnb?retryWrites=true&w=majority&appName=Sangram";
-  
+// const DB_PATH =
+//   process.env.MONGO_URI ||
+//   "mongodb+srv://root:pass@sangram.yjddsyh.mongodb.net/airbnb?retryWrites=true&w=majority&appName=Sangram";
+
+const DB_PATH = process.env.MONGO_URI;
 //Local Module
 const storeRouter = require("./routes/storeRouter");
 const hostRouter = require("./routes/hostRouter");
