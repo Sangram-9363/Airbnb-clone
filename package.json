@@ -4,7 +4,7 @@
   "description": "This is Clone of Airbnd for learning node js.",
   "main": "App.js",
   "scripts": {
-    "start": "node App.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "tailwind": "tailwindcss -i ./views/input.css -o ./public/output.css --watch"
   },
